@@ -32,6 +32,5 @@ function solution(n) {
       }
     }
   }
-  console.log(arr)
   return arr.reduce((a,b)=>{return a+b})
 }
